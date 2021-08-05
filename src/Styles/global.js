@@ -137,10 +137,9 @@ ${({ theme }) => css`
 		display:flex;
 		flex-direction:column;
 		background-color: white;
-		border: 10px solid transparent;
+		border: 7px solid transparent;
 		border-radius: 5px;
 		min-height: 261px;
-		padding: 1rem;
 		-moz-osx-font-smoothing: grayscale;
 		backface-visibility: hidden;
 		transform: translateZ(0);
@@ -179,7 +178,7 @@ ${({ theme }) => css`
 		display: flex;
 		justify-content: center;
 		align-items: baseline;
-		font-size: 1.5em;
+		font-size: 1.4em;
 	}
 
 	.backCard-header span {
@@ -191,7 +190,9 @@ ${({ theme }) => css`
 		display: flex;
 		flex-direction: column;
 		color: ${theme.colors.title};
-		font-size: 1.3em;
+		font-size: 1.25em;
+		margin-left: auto;
+		margin-right: auto;
 	}
 	
 	.backCard-content div {
